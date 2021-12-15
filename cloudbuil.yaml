@@ -1,5 +1,0 @@
-steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/git-334002/github.com/portalitos77mx/cloud-arman2:$SHORT_SHA', '.']
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/git-334002/github.com/portalitos77mx/cloud-arman2:$SHORT_SHA']
